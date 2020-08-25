@@ -1,0 +1,146 @@
+* {
+    font-family: Arial;
+}
+
+header {
+    background-color: #fbfbfb;
+}
+
+.fixed-container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 80px;
+ }
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    background: url(icons/photo.png) no-repeat;
+    background-position: right -100px bottom;
+    background-size: 55%;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #1f1f24;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+nav a:hover {
+    color: #fc557c;
+    text-decoration: underline;
+}
+
+.phone-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.phone {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.order-call {
+    border: 1px solid #fc557c;
+    padding: 16px 40px;
+    color: #fc557c;
+    background-color: white;
+    cursor: pointer;
+}
+.order-call:hover {
+    background-color: #fc557c;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(204, 38, 176, 0.5);
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 650px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0 0 15px;
+}
+
+h3 {
+    color: #8993ad;
+    font-size: 24px;
+    font-weight: normal;
+}
+.learn-more {
+    padding: 16px 40px;
+    background-color: #ff0000;
+    border: 1px solid #fc557c;
+    color: #fbfbfb;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.learn-more:hover {
+    box-shadow: 0 0 20px rgba(255, 13, 13, 0.5);
+}
+/*----------------------------------------------------*/
+.skills-title {
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;	
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.skills-block {
+    display: flex;
+    justify-content: space-around;
+ }
+ .skills-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+ }
+.skills-item img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.skills-item p {
+    color: #8993ad;
+    text-align: center;
+    line-height: 24px;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-btn {
+    padding: 16px 40px;
+    background-color: #ff0000;
+    border: 1px solid #fc557c;
+    color: #fbfbfb;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 18px;
+}
+.price-btn:hover {
+    box-shadow: 0 0 20px rgba(255, 13, 13, 0.5);
+}
